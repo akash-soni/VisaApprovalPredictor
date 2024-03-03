@@ -1,0 +1,13 @@
+What is use of @dataclass decorator?
+
+with data class we can create variables without constructors, we do not need to use self.
+
+What is use of config_entity?
+
+Ans: 
+
+
+What is use of artificat_entity?
+
+Ans: Return type of our component. Ex: After ingesting the data we will save train.csv and test.csv.
+     It means return type / output of one component is input for next component
