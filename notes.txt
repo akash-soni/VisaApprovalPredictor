@@ -1,13 +1,20 @@
-What is use of @dataclass decorator?
+Ques: What is use of @dataclass decorator?
 
-with data class we can create variables without constructors, we do not need to use self.
+Ans:  with data class we can create variables without constructors, we do not need to use self.
 
-What is use of config_entity?
+Ques: What is use of config_entity?
 
-Ans: 
+Ans: config_entity returns all the necessary directories of the resources that are required by the component
 
 
-What is use of artificat_entity?
+Ques: What is use of artificat_entity?
 
-Ans: Return type of our component. Ex: After ingesting the data we will save train.csv and test.csv.
-     It means return type / output of one component is input for next component
+Ans:  Return type of our component. Ex: After ingesting the data we will save train.csv and test.csv.
+      It means return type / output of one component is input for next component.
+
+
+Ques: Data Drift?
+Ans:  Difference in distribution of Training and Test data. If drift score is near to zero then there is Drift else 
+      If drift scroe is near to 1 then there is no Drift.
+
+      Drift can be correctect by using feature engineering
